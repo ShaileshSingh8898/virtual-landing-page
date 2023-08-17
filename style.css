@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+   background-color: black;
+}
+
+
+.page1 .nav{
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: relative;
+    z-index: 5;
+}
+
+.page1 .nav .left{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.page1 .nav .left i{
+    font-size: 35px;
+}
+.page1 .nav .mid{
+    display: flex;
+   color: #EEEEEE;
+    gap: 50px;
+   
+}
+.page1 .nav .right{
+    display: flex;
+    gap: 50px;
+}
+
+.page1 .nav .right i{
+   background-color: transparent;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: white;
+}
+.page1 .nav .right p{
+    padding-top: 15px;
+    color: #EEEEEE;
+}
+
+.page1 .center{
+    display: flex;
+}
+
+.page1 .center .left{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 100px;
+    background-color: transparent;
+}
+
+.page1 .center .left h1{
+padding-bottom: 50px;
+padding-top: 50px;
+font-size: 100px;
+font-family: Bebas neue;
+letter-spacing: 1px;
+color: #fff;
+font-weight: 200;
+
+}
+
+.page1 .center .left .end{
+    display: flex;
+    gap: 60px;
+}
+.page1 .center .left .end button{
+    padding: 10px 30px;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.page1 .center .left .end p{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0px;
+    border-bottom: 1px solid white;
+}
+.page1 .center .onemore{
+    width: 300px;
+    height: 400px;
+    background-color: beige;
+    position: absolute;
+    left: 560px;
+    top: 200px;
+}
+
+.page1 .center .onemore .image{
+    width: 300px;
+    height: 400px;
+background-image: url(https://cdnb.artstation.com/p/assets/images/images/012/032/151/large/luc-tschopp-hyperbreach-02.jpg?1532656004);
+    background-size: cover;
+    background-position:  center;
+}
+.page1 .center .mid{
+    width: 300px;
+    height: 400px;
+    background-color: beige;
+    position: absolute;
+    left: 900px;
+}
+.page1 .center .mid .image{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/060/702/584/medium/nephilim-dro-beats-fallen-angels-productions-petere617-muscular-female-cyborg-character-design-void-arcanist-19fe601c-4e3d-46c0-87c6-9fabb7ad5c29.jpg?1679132481);
+    background-size: cover;
+}
+
+.page1 .center .right{
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+   top: 0px;
+   left: 1235px;
+position: absolute;
+z-index: 2;
+}
+
+
+.page1 .center .right .image1{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/003/379/042/medium/aaron-deleon-robot-head-render-env.jpg?1473076525);
+background-size: cover;
+}
+
+.page1 .center .right .image1 .end1{
+    display: flex;
+   justify-content: space-between;
+   padding:300px 5px;
+   align-items: end;
+}
+
+
+.page1 .center .right .image1 .end1 .left1{
+    display: flex;
+    padding-left: 5px;
+    gap: 35px;
+}
+.page1 .center .right .image1 .end1 .left1 h1{
+    color: #fff;
+    font-size: 80px;
+    font-family: bebas neue;
+    font-weight: 200;
+}
+.page1 .center .right .image1 .end1 .left1 p{
+    transform: rotate(-90deg);
+    color: #fff;
+    font-size: 8px;
+}
+.page1 .center .right .image1 .end1 .right1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.page1 .bottom{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.page1 .bottom .left{
+    width: 370px;
+    height: 150px;
+    border: 1px solid white;
+}
+
+.page1 .bottom .left .a img {
+    height: 150px;
+  
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    z-index: 2;
+
+}
+
+.page1 .bottom .left .a i{
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+  position: absolute;
+  top: 15px;
+  left: 210px;
+  z-index: 1;
+}
+.page1 .bottom .left .b{
+    color: #EEEEEE;
+    position: absolute;
+   
+}
+.page1 .bottom .left .b h1{
+    font-size: 20px;
+    padding-left: 125px;
+    padding-top: 50px;
+
+}
+.page1 .bottom .left .b p{
+    padding-left: 125px;
+    padding-top:10px;
+} 
+
+.page1 .bottom .right{
+    width: 400px;
+}
+.page1 .bottom .right .a{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-top:  1px solid white;
+padding: 25px 0px;
+color: #fff;
+}
+.page1 .bottom .right .a p{
+    font-size: 10px;
+}
+
+.page1 .bottom .right .b{
+    display: flex;
+    justify-content: space-between;
+    border-top:  1px solid white;
+    padding: 25px 0px;
+    color: #fff;
+    }
+    .page1 .bottom .right .b p{
+        font-size: 10px;
+        
+    }
+    
